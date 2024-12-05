@@ -1,0 +1,12 @@
+my-portfolio/
+├── app/
+│   ├── globals.css
+│   ├── page.tsx
+│   └── layout.tsx
+├── public/
+│   └── file.svg
+├── tailwind.config.js
+├── package.json
+└── ...
+
+UI use preline
