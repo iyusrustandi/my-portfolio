@@ -1,0 +1,58 @@
+[
+  {
+    "artist": "Bernadya",
+    "song": "Untungnya, Hidup Harus Tetap Berjalan",
+    "chords": "/chords/bernadya-untungnya-hidup-harus-tetap-berjalan.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=HB8vftGxsIc"
+  },
+  {
+    "artist": "Sheila On 7",
+    "song": "Sebuah Kisah Klasik",
+    "chords": "/chords/sheila-on-7-sebuah-kisah-klasik.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=9SFdgNDlklk"
+  },
+  {
+    "artist": "Sheila On 7",
+    "song": "Hari Bersamnanya",
+    "chords": "/chords/sheila-on-7-hari-bersamanya.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=XF9N1t7-qJw"
+  },
+  {
+    "artist": "Sheila On 7",
+    "song": "Kita",
+    "chords": "/chords/sheila-on-7-kita.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=qFZI6kPtOh0"
+  },
+  {
+    "artist": "Noah",
+    "song": "Topeng",
+    "chords": "/chords/noah-topeng.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=cnylHthR_g4"
+  },
+  {
+    "artist": "Noah",
+    "song": "Sally Sendiri",
+    "chords": "/chords/noah-sally-sendiri.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=aMXzpJDmwis"
+  },
+  {
+    "artist": "Radja",
+    "song": "Benci Bilang Cinta",
+    "chords": "/chords/radja-benci-bilang-cinta.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=mXSMW_OCQc0"
+  },
+  {
+    "artist": "Radja",
+    "song": "Yakin",
+    "chords": "/chords/radja-yakin.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=_nEXc1D_qJ8"
+  }
+]

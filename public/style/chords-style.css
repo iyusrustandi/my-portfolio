@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../images/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+#nav-placeholder,
+#footer-placeholder {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ======================lyrics======================= */
+.lyric-container {
+  font-family: Georgia, serif;
+}
+h2 {
+  font-size: 3vw;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.lyric {
+  font-family: Arial, sans-serif;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 90%;
+  margin: auto;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.lyric pre {
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+
+.reff {
+  font-size: 1.1em;
+  margin: 15px 0;
+}
+
+/* chord and button */
+.chord {
+  display: inline-block;
+  font-weight: bold;
+  background: #ffcc00;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.button-container {
+  display: flex;
+  margin: auto;
+  height: auto;
+  width: 25%;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.button-container .button-text {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 1vw;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.decrement-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.increment-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.decrement-button:hover {
+  background-color: #e63939;
+}
+
+.increment-button:hover {
+  background-color: #45a049;
+}
+
+.section-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+/* Modal syle */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  margin: 10% auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 15%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #aaa;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+#chord-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+/* ================mobile phone display================== */
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 4vw;
+  }
+  .lyric {
+    font-size: 14px;
+    max-width: 95%;
+    padding: 8px;
+  }
+  .chord {
+    font-size: 12px;
+    padding: 1px 5px;
+  }
+
+  .section-title {
+    font-size: 1em;
+  }
+
+  .reff {
+    font-size: 1em;
+  }
+  .numbertext {
+    font-size: 10px;
+  }
+  .caption-container {
+    font-size: 12px;
+  }
+  .modal-content {
+    width: 25%;
+  }
+  .button-container .button-text {
+    font-size: 3vw;
+  }
+  .button-container {
+    margin: auto;
+    height: auto;
+    width: 45%;
+  }
+
+  .button-container button {
+    font-size: 2vw;
+  }
+}
