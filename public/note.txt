@@ -57,3 +57,13 @@ Dm G                 C
    Untungnya, untungnya
 Am                 Dm      E7 Am
 Hidup harus tetap berjalan
+
+
+
+  {
+    "artist": "Noah",
+    "song": "Topeng",
+    "chords": "/chords/noah-topeng.html",
+    "status": "Ready",
+    "youtube": "https://www.youtube.com/watch?v=cnylHthR_g4"
+  },

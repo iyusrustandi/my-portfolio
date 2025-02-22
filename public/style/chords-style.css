@@ -60,7 +60,7 @@ h2 {
 .chord {
   display: inline-block;
   font-weight: bold;
-  background: #ffcc00;
+  color: #eb0b0b;
   padding: 2px 6px;
   border-radius: 4px;
   margin: 2px;
@@ -178,7 +178,7 @@ h2 {
     padding: 8px;
   }
   .chord {
-    font-size: 12px;
+    font-size: 14px;
     padding: 1px 5px;
   }
 
